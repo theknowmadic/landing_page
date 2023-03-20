@@ -53,15 +53,14 @@ a {
 
 .second_text {
     margin-left: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .image {
     display: flex;
     height: 300px;
     width: 300px;
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
 }
 
 button {
@@ -70,3 +69,78 @@ button {
 }
 
 /* __________________________________________ */
+
+.body2 {
+    background-color: #F9FAF8;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+
+
+/* __________________________________________ */
+
+.body3 {
+    background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+/* __________________________________________ */
+
+.blue {
+    display: flex;
+    padding: 20px;
+    border-style: solid;
+    border-color: #3882F6;;
+    margin: 70px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+
+
+/* __________________________________________ */
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
