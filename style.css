@@ -199,11 +199,13 @@ a {
 }
 
 
-
-.buttons {
+.new_button {
     display: flex;
-    color: red;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
 }
+
 
 
 /* __________________________________________ */
