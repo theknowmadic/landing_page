@@ -189,17 +189,22 @@ a {
     border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
-    justify-content: space-evenly;
     width: 1200px;
+    justify-content: space-evenly;
+    font-size: 18px;
 }
 
-.blueish {
-    display: flex;
+.Call {
+    font-weight: bold;
 }
 
-.second_button {
+
+
+.buttons {
     display: flex;
+    color: red;
 }
+
 
 /* __________________________________________ */
 
