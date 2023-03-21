@@ -196,7 +196,9 @@ a {
 
 .Call {
     font-weight: bold;
+    font-size: 24px;
 }
+
 
 
 .new_button {
@@ -204,6 +206,10 @@ a {
     color: #F9FAF8;
     border-color: #F9FAF8;
     background-color: #3882F6;
+    justify-content: center;
+    padding: 15px;
+    width: 130px;
+    font-weight: bold;
 }
 
 
